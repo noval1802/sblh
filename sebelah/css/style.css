@@ -1,8 +1,33 @@
- /* .cotainer{
-    width: 0;
-    right: 0%;
- }
- .sblh{
-    text-align: left;
-    top: 30%;
- } */
+html {
+  font-size: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  left: 50;
+}
+.nav-bar h1 {
+  text-align: left;
+  font-size: 20px;
+  color: #66fcf1;
+  font-style: italic;
+}
+
+.content {
+  right: 100px;
+  left: 10px;
+  background-color: #66fcf1;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #C5C6C7;
+}
